@@ -1,0 +1,2602 @@
+[dotenv@17.2.2] injecting env (7) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.2] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.2.2] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+(node:16856) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16856) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+
+################################################
+🚀 Server listening on port: 4555
+🔗 Link: http://localhost:4555
+################################################
+  
+(node:16856) NOTE: The AWS SDK for JavaScript (v2) is in maintenance mode.
+ SDK releases are limited to address critical bug fixes and security issues only.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the blog post at https://a.co/cUPnyil
+✅ MongoDB Connected
+Default company already exists
+2026-02-09T14:36:00.043Z - Job started
+2026-02-09T14:36:00.262Z - Updated 0 MovieRe2026-02-09T14:36:00.273Z - Updated 0 MovieRent docs, 0 PurchaseSubscription d2026-02-09T14:37:00.369Z - Job started
+2026-02-09T14:37:00.858Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:37:00.859Z - Job finished
+2026-02-09T14:38:00.391Z - Job started
+2026-02-09T14:38:00.814Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:38:00.814Z - Job finished
+📊 Watch History Debug:
+  Total records fo2026-02-09T14:39:00.214Z - Job started
+2026-02-09T14:39:00.571Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:39:00.571Z - Job finished
+2026-02-09T14:40:00.876Z - Job started
+2026-02-09T14:40:01.433Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:40:01.438Z - Job finished
+2026-02-09T14:41:00.079Z - Job started
+2026-02-09T14:41:00.411Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:41:00.411Z - Job finished
+2026-02-09T14:42:00.140Z - Job started
+2026-02-09T14:42:00.681Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:42:01.587Z - Job finished
+2026-02-09T14:43:00.053Z - Job started
+2026-02-09T14:43:00.275Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:43:00.275Z - Job finished
+2026-02-09T14:44:00.030Z - Job started
+2026-02-09T14:44:00.255Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:44:00.255Z - Job finished
+2026-02-09T14:45:00.019Z - Job started
+2026-02-09T14:45:00.239Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:45:00.239Z - Job finished
+2026-02-09T14:46:00.041Z - Job started
+2026-02-09T14:46:00.312Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:46:00.312Z - Job finished
+2026-02-09T14:47:00.007Z - Job started
+2026-02-09T14:47:00.231Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:47:00.231Z - Job finished
+2026-02-09T14:48:00.006Z - Job started
+2026-02-09T14:48:00.212Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:48:00.212Z - Job finished
+2026-02-09T14:49:00.010Z - Job started
+2026-02-09T14:49:00.237Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:49:00.237Z - Job finished
+2026-02-09T14:50:00.019Z - Job started
+2026-02-09T14:50:00.218Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:50:00.218Z - Job finished
+2026-02-09T14:51:00.015Z - Job started
+2026-02-09T14:51:00.299Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:51:00.299Z - Job finished
+2026-02-09T14:52:00.019Z - Job started
+2026-02-09T14:52:00.216Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:52:00.216Z - Job finished
+2026-02-09T14:53:00.105Z - Job started
+2026-02-09T14:53:00.429Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:53:00.429Z - Job finished
+2026-02-09T14:54:00.018Z - Job started
+2026-02-09T14:54:00.230Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:54:00.230Z - Job finished
+2026-02-09T14:55:00.019Z - Job started
+2026-02-09T14:55:00.238Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:55:00.238Z - Job finished
+2026-02-09T14:56:00.017Z - Job started
+2026-02-09T14:56:00.221Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:56:00.221Z - Job finished
+2026-02-09T14:57:00.016Z - Job started
+2026-02-09T14:57:00.259Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:57:00.259Z - Job finished
+2026-02-09T14:58:00.013Z - Job started
+2026-02-09T14:58:00.210Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:58:00.210Z - Job finished
+2026-02-09T14:59:00.027Z - Job started
+2026-02-09T14:59:00.266Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:59:00.266Z - Job finished
+2026-02-09T15:00:00.019Z - Job started
+2026-02-09T15:00:00.214Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:00:00.214Z - Job finished
+2026-02-09T15:01:00.023Z - Job started
+2026-02-09T15:01:00.224Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:01:00.224Z - Job finished
+2026-02-09T15:02:00.021Z - Job started
+2026-02-09T15:02:00.220Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:02:00.220Z - Job finished
+2026-02-09T15:03:00.009Z - Job started
+2026-02-09T15:03:00.241Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:03:00.241Z - Job finished
+2026-02-09T15:04:00.018Z - Job started
+2026-02-09T15:04:00.254Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:04:00.254Z - Job finished
+2026-02-09T15:05:00.034Z - Job started
+2026-02-09T15:05:00.235Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:05:00.235Z - Job finished
+2026-02-09T15:06:00.022Z - Job started
+2026-02-09T15:06:00.220Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:06:00.220Z - Job finished
+2026-02-09T15:07:00.027Z - Job started
+2026-02-09T15:07:00.220Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:07:00.220Z - Job finished
+2026-02-09T15:08:00.035Z - Job started
+2026-02-09T15:08:00.230Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:08:00.230Z - Job finished
+2026-02-09T15:09:00.042Z - Job started
+2026-02-09T15:09:00.388Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:09:00.388Z - Job finished
+2026-02-09T15:10:00.031Z - Job started
+2026-02-09T15:10:00.280Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:10:00.280Z - Job finished
+2026-02-09T15:11:00.023Z - Job started
+2026-02-09T15:11:00.231Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:11:00.231Z - Job finished
+2026-02-09T15:12:00.044Z - Job started
+2026-02-09T15:12:00.319Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:12:00.319Z - Job finished
+2026-02-09T15:13:00.053Z - Job started
+2026-02-09T15:13:03.095Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:13:03.095Z - Job finished
+2026-02-09T15:14:00.034Z - Job started
+2026-02-09T15:14:00.269Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:14:00.269Z - Job finished
+2026-02-09T15:15:00.034Z - Job started
+2026-02-09T15:15:00.261Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:15:00.262Z - Job finished
+2026-02-09T15:16:00.046Z - Job started
+2026-02-09T15:16:00.258Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:16:00.258Z - Job finished
+2026-02-09T15:17:00.051Z - Job started
+2026-02-09T15:17:00.304Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:17:00.304Z - Job finished
+2026-02-09T15:18:00.042Z - Job started
+2026-02-09T15:18:00.240Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:18:00.240Z - Job finished
+2026-02-09T15:19:00.013Z - Job started
+2026-02-09T15:19:00.230Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:19:00.231Z - Job finished
+2026-02-09T15:20:00.015Z - Job started
+2026-02-09T15:20:00.221Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:20:00.221Z - Job finished
+2026-02-09T15:21:00.030Z - Job started
+2026-02-09T15:21:00.231Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:21:00.231Z - Job finished
+2026-02-09T15:22:00.018Z - Job started
+2026-02-09T15:22:00.199Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:22:00.199Z - Job finished
+2026-02-09T15:23:00.007Z - Job started
+2026-02-09T15:23:00.234Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:23:00.234Z - Job finished
+2026-02-09T15:24:00.020Z - Job started
+2026-02-09T15:24:00.281Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:24:00.281Z - Job finished
+2026-02-09T15:25:00.010Z - Job started
+2026-02-09T15:25:00.330Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:25:00.330Z - Job finished
+2026-02-09T15:26:00.016Z - Job started
+2026-02-09T15:26:00.251Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:26:00.251Z - Job finished
+2026-02-09T15:27:00.007Z - Job started
+2026-02-09T15:27:00.221Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:27:00.221Z - Job finished
+2026-02-09T15:28:00.018Z - Job started
+2026-02-09T15:28:03.308Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:28:03.308Z - Job finished
+2026-02-09T15:29:00.030Z - Job started
+2026-02-09T15:29:02.151Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:29:02.151Z - Job finished
+2026-02-09T15:30:00.019Z - Job started
+2026-02-09T15:30:00.228Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:30:00.229Z - Job finished
+2026-02-09T15:31:00.026Z - Job started
+2026-02-09T15:31:00.283Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:31:00.284Z - Job finished
+2026-02-09T15:32:00.021Z - Job started
+2026-02-09T15:32:00.235Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:32:00.235Z - Job finished
+2026-02-09T15:33:00.016Z - Job started
+2026-02-09T15:33:00.212Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:33:00.213Z - Job finished
+2026-02-09T15:34:00.016Z - Job started
+2026-02-09T15:34:02.192Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:34:02.192Z - Job finished
+2026-02-09T15:35:00.031Z - Job started
+2026-02-09T15:35:00.249Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:35:00.249Z - Job finished
+2026-02-09T15:36:00.018Z - Job started
+2026-02-09T15:36:00.227Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:36:00.227Z - Job finished
+2026-02-09T15:37:00.028Z - Job started
+2026-02-09T15:37:00.260Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:37:00.260Z - Job finished
+2026-02-09T15:38:00.026Z - Job started
+2026-02-09T15:38:00.279Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:38:00.279Z - Job finished
+2026-02-09T15:39:00.022Z - Job started
+2026-02-09T15:39:00.624Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:39:00.624Z - Job finished
+2026-02-09T15:40:00.188Z - Job started
+2026-02-09T15:40:00.490Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:40:00.493Z - Job finished
+2026-02-09T15:41:00.046Z - Job started
+2026-02-09T15:41:00.279Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:41:00.279Z - Job finished
+2026-02-09T15:42:00.027Z - Job started
+2026-02-09T15:42:00.217Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:42:00.217Z - Job finished
+2026-02-09T15:43:00.018Z - Job started
+2026-02-09T15:43:00.314Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:43:00.314Z - Job finished
+2026-02-09T15:44:00.013Z - Job started
+2026-02-09T15:44:00.209Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:44:00.209Z - Job finished
+2026-02-09T15:45:00.056Z - Job started
+2026-02-09T15:45:00.375Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:45:00.376Z - Job finished
+2026-02-09T15:46:00.008Z - Job started
+2026-02-09T15:46:00.244Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:46:00.244Z - Job finished
+2026-02-09T15:47:00.008Z - Job started
+2026-02-09T15:47:00.236Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:47:00.236Z - Job finished
+2026-02-09T15:48:00.014Z - Job started
+2026-02-09T15:48:00.271Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:48:00.271Z - Job finished
+2026-02-09T15:49:00.006Z - Job started
+2026-02-09T15:49:00.243Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:49:00.243Z - Job finished
+2026-02-09T15:50:00.027Z - Job started
+2026-02-09T15:50:00.269Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:50:00.269Z - Job finished
+2026-02-09T15:51:00.017Z - Job started
+2026-02-09T15:51:00.231Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:51:00.231Z - Job finished
+2026-02-09T15:52:00.014Z - Job started
+2026-02-09T15:52:00.264Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:52:00.264Z - Job finished
+2026-02-09T15:53:00.016Z - Job started
+2026-02-09T15:53:00.242Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:53:00.242Z - Job finished
+2026-02-09T15:54:00.029Z - Job started
+2026-02-09T15:54:00.282Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:54:00.282Z - Job finished
+2026-02-09T15:55:00.016Z - Job started
+2026-02-09T15:55:00.296Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:55:00.296Z - Job finished
+2026-02-09T15:56:00.022Z - Job started
+2026-02-09T15:56:00.295Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:56:00.295Z - Job finished
+2026-02-09T15:57:00.007Z - Job started
+2026-02-09T15:57:00.237Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:57:00.237Z - Job finished
+2026-02-09T15:58:00.020Z - Job started
+2026-02-09T15:58:00.212Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:58:00.212Z - Job finished
+2026-02-09T15:59:00.019Z - Job started
+2026-02-09T15:59:00.203Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:59:00.203Z - Job finished
+2026-02-09T16:00:00.013Z - Job started
+2026-02-09T16:00:00.238Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:00:00.238Z - Job finished
+2026-02-09T16:01:00.009Z - Job started
+2026-02-09T16:01:00.247Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:01:00.247Z - Job finished
+2026-02-09T16:02:00.018Z - Job started
+2026-02-09T16:02:00.221Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:02:00.222Z - Job finished
+2026-02-09T16:03:00.014Z - Job started
+2026-02-09T16:03:00.216Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:03:00.216Z - Job finished
+2026-02-09T16:04:00.008Z - Job started
+2026-02-09T16:04:00.219Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:04:00.219Z - Job finished
+2026-02-09T16:05:00.014Z - Job started
+2026-02-09T16:05:00.237Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:05:00.238Z - Job finished
+2026-02-09T16:06:00.011Z - Job started
+2026-02-09T16:06:00.214Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:06:00.214Z - Job finished
+2026-02-09T16:07:00.013Z - Job started
+2026-02-09T16:07:00.216Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:07:00.216Z - Job finished
+2026-02-09T16:08:00.025Z - Job started
+2026-02-09T16:08:00.243Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:08:00.243Z - Job finished
+2026-02-09T16:09:00.013Z - Job started
+2026-02-09T16:09:00.217Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:09:00.218Z - Job finished
+2026-02-09T16:10:00.021Z - Job started
+2026-02-09T16:10:00.218Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:10:00.218Z - Job finished
+2026-02-09T16:11:00.010Z - Job started
+2026-02-09T16:11:00.228Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:11:00.228Z - Job finished
+2026-02-09T16:12:00.015Z - Job started
+2026-02-09T16:12:00.256Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:12:00.256Z - Job finished
+2026-02-09T16:13:00.019Z - Job started
+2026-02-09T16:13:00.382Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:13:00.382Z - Job finished
+2026-02-09T16:14:00.051Z - Job started
+2026-02-09T16:14:00.267Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:14:00.267Z - Job finished
+2026-02-09T16:15:00.080Z - Job started
+2026-02-09T16:15:00.368Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:15:00.369Z - Job finished
+2026-02-09T16:16:00.025Z - Job started
+2026-02-09T16:16:00.248Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:16:00.248Z - Job finished
+2026-02-09T16:17:00.014Z - Job started
+2026-02-09T16:17:00.247Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:17:00.247Z - Job finished
+2026-02-09T16:18:00.006Z - Job started
+2026-02-09T16:18:00.229Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:18:00.230Z - Job finished
+2026-02-09T16:19:00.011Z - Job started
+2026-02-09T16:19:00.249Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:19:00.249Z - Job finished
+2026-02-09T16:20:00.015Z - Job started
+2026-02-09T16:20:00.251Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:20:00.251Z - Job finished
+2026-02-09T16:21:00.013Z - Job started
+2026-02-09T16:21:00.202Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:21:00.203Z - Job finished
+2026-02-09T16:22:00.012Z - Job started
+2026-02-09T16:22:00.228Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:22:00.228Z - Job finished
+2026-02-09T16:23:00.007Z - Job started
+2026-02-09T16:23:00.361Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:23:00.361Z - Job finished
+2026-02-09T16:24:00.018Z - Job started
+2026-02-09T16:24:00.207Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:24:00.207Z - Job finished
+2026-02-09T16:25:00.015Z - Job started
+2026-02-09T16:25:00.233Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:25:00.233Z - Job finished
+2026-02-09T16:26:00.022Z - Job started
+2026-02-09T16:26:00.202Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:26:00.202Z - Job finished
+2026-02-09T16:27:00.015Z - Job started
+2026-02-09T16:27:00.198Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:27:00.198Z - Job finished
+2026-02-09T16:28:00.019Z - Job started
+2026-02-09T16:28:00.232Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:28:00.232Z - Job finished
+2026-02-09T16:29:00.015Z - Job started
+2026-02-09T16:29:00.238Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:29:00.238Z - Job finished
+2026-02-09T16:30:00.037Z - Job started
+2026-02-09T16:30:00.271Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:30:00.271Z - Job finished
+2026-02-09T16:31:00.010Z - Job started
+2026-02-09T16:31:00.228Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:31:00.228Z - Job finished
+2026-02-09T16:32:00.030Z - Job started
+2026-02-09T16:32:00.259Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:32:00.259Z - Job finished
+2026-02-09T16:33:00.021Z - Job started
+2026-02-09T16:33:00.254Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:33:00.254Z - Job finished
+2026-02-09T16:34:00.045Z - Job started
+2026-02-09T16:34:00.268Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:34:00.268Z - Job finished
+2026-02-09T16:35:00.031Z - Job started
+2026-02-09T16:35:00.241Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:35:00.241Z - Job finished
+2026-02-09T16:36:00.035Z - Job started
+2026-02-09T16:36:00.221Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:36:00.221Z - Job finished
+2026-02-09T16:37:00.016Z - Job started
+2026-02-09T16:37:00.215Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:37:00.215Z - Job finished
+2026-02-09T16:38:00.015Z - Job started
+2026-02-09T16:38:00.282Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:38:00.283Z - Job finished
+2026-02-09T16:39:00.012Z - Job started
+2026-02-09T16:39:00.194Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:39:00.194Z - Job finished
+2026-02-09T16:40:00.015Z - Job started
+2026-02-09T16:40:00.231Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:40:00.231Z - Job finished
+2026-02-09T16:41:00.013Z - Job started
+2026-02-09T16:41:00.514Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:41:00.514Z - Job finished
+2026-02-09T16:42:00.013Z - Job started
+2026-02-09T16:42:00.195Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:42:00.195Z - Job finished
+2026-02-09T16:43:00.012Z - Job started
+2026-02-09T16:43:00.194Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:43:00.195Z - Job finished
+2026-02-09T16:44:00.037Z - Job started
+2026-02-09T16:44:00.354Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:44:00.354Z - Job finished
+2026-02-09T16:45:00.028Z - Job started
+2026-02-09T16:45:00.240Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:45:00.240Z - Job finished
+2026-02-09T16:46:00.008Z - Job started
+2026-02-09T16:46:00.279Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:46:00.279Z - Job finished
+2026-02-09T16:47:00.005Z - Job started
+2026-02-09T16:47:00.199Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:47:00.199Z - Job finished
+2026-02-09T16:48:00.009Z - Job started
+2026-02-09T16:48:00.250Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:48:00.250Z - Job finished
+2026-02-09T16:49:00.033Z - Job started
+2026-02-09T16:49:00.244Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:49:00.248Z - Job finished
+2026-02-09T16:50:00.028Z - Job started
+2026-02-09T16:50:00.245Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:50:00.245Z - Job finished
+2026-02-09T16:51:00.037Z - Job started
+2026-02-09T16:51:00.260Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:51:00.260Z - Job finished
+2026-02-09T16:52:00.016Z - Job started
+2026-02-09T16:52:00.225Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:52:00.225Z - Job finished
+2026-02-09T16:53:00.011Z - Job started
+2026-02-09T16:53:00.220Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:53:00.220Z - Job finished
+2026-02-09T16:54:00.007Z - Job started
+2026-02-09T16:54:00.258Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:54:00.258Z - Job finished
+2026-02-09T16:55:00.060Z - Job started
+2026-02-09T16:55:00.351Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:55:00.351Z - Job finished
+2026-02-09T16:56:00.148Z - Job started
+2026-02-09T16:56:00.780Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:56:00.780Z - Job finished
+2026-02-09T16:57:00.059Z - Job started
+2026-02-09T16:57:00.536Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:57:00.536Z - Job finished
+2026-02-09T16:58:00.888Z - Job started
+2026-02-09T16:58:02.005Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:58:02.006Z - Job finished
+2026-02-09T16:59:00.335Z - Job started
+2026-02-09T16:59:00.978Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T16:59:00.983Z - Job finished
+2026-02-09T17:00:00.963Z - Job started
+2026-02-09T17:00:02.186Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:00:02.186Z - Job finished
+2026-02-09T17:01:00.379Z - Job started
+2026-02-09T17:01:01.223Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:01:01.224Z - Job finished
+2026-02-09T17:02:00.226Z - Job started
+2026-02-09T17:02:00.672Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:02:00.672Z - Job finished
+2026-02-09T17:03:00.300Z - Job started
+2026-02-09T17:03:00.862Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:03:00.863Z - Job finished
+2026-02-09T17:04:00.341Z - Job started
+2026-02-09T17:04:01.134Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:04:01.138Z - Job finished
+2026-02-09T17:05:01.913Z - Job started
+2026-02-09T17:05:03.549Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:05:03.550Z - Job finished
+2026-02-09T17:06:00.985Z - Job started
+2026-02-09T17:06:01.741Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:06:01.743Z - Job finished
+2026-02-09T17:07:00.706Z - Job started
+2026-02-09T17:07:01.513Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:07:01.513Z - Job finished
+2026-02-09T17:08:00.205Z - Job started
+2026-02-09T17:08:00.730Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:08:00.731Z - Job finished
+2026-02-09T17:09:00.215Z - Job started
+2026-02-09T17:09:00.698Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:09:00.700Z - Job finished
+2026-02-09T17:10:00.216Z - Job started
+2026-02-09T17:10:00.683Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:10:00.684Z - Job finished
+2026-02-09T17:11:00.439Z - Job started
+2026-02-09T17:11:01.195Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:11:01.195Z - Job finished
+2026-02-09T17:12:00.169Z - Job started
+2026-02-09T17:12:00.619Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:12:00.621Z - Job finished
+2026-02-09T17:13:00.103Z - Job started
+2026-02-09T17:13:00.415Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:13:00.415Z - Job finished
+2026-02-09T17:14:00.327Z - Job started
+2026-02-09T17:14:01.386Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:14:01.387Z - Job finished
+2026-02-09T17:15:00.166Z - Job started
+2026-02-09T17:15:00.587Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:15:00.588Z - Job finished
+2026-02-09T17:16:00.040Z - Job started
+2026-02-09T17:16:00.318Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:16:00.319Z - Job finished
+2026-02-09T17:17:00.144Z - Job started
+2026-02-09T17:17:00.547Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:17:00.549Z - Job finished
+2026-02-09T17:18:00.049Z - Job started
+2026-02-09T17:18:00.317Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:18:00.317Z - Job finished
+2026-02-09T17:19:00.044Z - Job started
+2026-02-09T17:19:00.341Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:19:00.345Z - Job finished
+2026-02-09T17:20:00.059Z - Job started
+2026-02-09T17:20:00.300Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:20:00.300Z - Job finished
+2026-02-09T17:21:00.123Z - Job started
+2026-02-09T17:21:00.426Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:21:00.426Z - Job finished
+2026-02-09T17:22:00.070Z - Job started
+2026-02-09T17:22:00.384Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:22:00.385Z - Job finished
+2026-02-09T17:23:00.104Z - Job started
+2026-02-09T17:23:00.391Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:23:00.392Z - Job finished
+2026-02-09T17:24:00.062Z - Job started
+2026-02-09T17:24:00.368Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:24:00.368Z - Job finished
+2026-02-09T17:25:00.092Z - Job started
+2026-02-09T17:25:00.411Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:25:00.411Z - Job finished
+2026-02-09T17:26:00.036Z - Job started
+2026-02-09T17:26:00.264Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:26:00.264Z - Job finished
+2026-02-09T17:27:00.059Z - Job started
+2026-02-09T17:27:00.277Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:27:00.277Z - Job finished
+2026-02-09T17:28:00.054Z - Job started
+2026-02-09T17:28:00.305Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:28:00.305Z - Job finished
+2026-02-09T17:29:00.041Z - Job started
+2026-02-09T17:29:00.251Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:29:00.251Z - Job finished
+2026-02-09T17:30:00.021Z - Job started
+2026-02-09T17:30:00.262Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:30:00.262Z - Job finished
+2026-02-09T17:31:00.034Z - Job started
+2026-02-09T17:31:00.281Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:31:00.281Z - Job finished
+2026-02-09T17:32:00.024Z - Job started
+2026-02-09T17:32:00.269Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:32:00.269Z - Job finished
+2026-02-09T17:33:00.020Z - Job started
+2026-02-09T17:33:00.239Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:33:00.239Z - Job finished
+2026-02-09T17:34:00.040Z - Job started
+2026-02-09T17:34:00.255Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:34:00.256Z - Job finished
+2026-02-09T17:35:00.033Z - Job started
+2026-02-09T17:35:00.290Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:35:00.290Z - Job finished
+2026-02-09T17:36:00.036Z - Job started
+2026-02-09T17:36:00.241Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:36:00.241Z - Job finished
+2026-02-09T17:37:00.019Z - Job started
+2026-02-09T17:37:00.261Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:37:00.262Z - Job finished
+2026-02-09T17:38:00.008Z - Job started
+2026-02-09T17:38:00.199Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:38:00.199Z - Job finished
+2026-02-09T17:39:00.028Z - Job started
+2026-02-09T17:39:00.298Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:39:00.298Z - Job finished
+2026-02-09T17:40:00.030Z - Job started
+2026-02-09T17:40:00.232Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:40:00.232Z - Job finished
+2026-02-09T17:41:00.028Z - Job started
+2026-02-09T17:41:00.223Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:41:00.223Z - Job finished
+2026-02-09T17:42:00.021Z - Job started
+2026-02-09T17:42:00.247Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:42:00.247Z - Job finished
+2026-02-09T17:43:00.031Z - Job started
+2026-02-09T17:43:00.241Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:43:00.241Z - Job finished
+2026-02-09T17:44:00.045Z - Job started
+2026-02-09T17:44:00.315Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:44:00.315Z - Job finished
+2026-02-09T17:45:00.033Z - Job started
+2026-02-09T17:45:00.224Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:45:00.224Z - Job finished
+2026-02-09T17:46:00.033Z - Job started
+2026-02-09T17:46:00.226Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:46:00.226Z - Job finished
+2026-02-09T17:47:00.020Z - Job started
+2026-02-09T17:47:00.242Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:47:00.242Z - Job finished
+2026-02-09T17:48:00.029Z - Job started
+2026-02-09T17:48:00.242Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:48:00.242Z - Job finished
+2026-02-09T17:49:00.083Z - Job started
+2026-02-09T17:49:00.343Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T17:49:00.344Z - Job finished
+Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 1
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 4406 → 4425
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ❌ Item 0 (Fallout):
+      Played: 73.8min / 75min (98.3%)
+      Raw timestamp: 4425
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 1
+────────────────────────────────────────────────────────────
+2026-02-09T14:56:00.011Z - Job started
+2026-02-09T14:56:00.221Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:56:00.221Z - Job finished
+✅ Updated watch history: 4425 → 4435
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ❌ Item 0 (Fallout):
+      Played: 73.9min / 75min (98.6%)
+      Raw timestamp: 4435
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 1
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 4435 → 4445
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ❌ Item 0 (Fallout):
+      Played: 74.1min / 75min (98.8%)
+      Raw timestamp: 4445
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 1
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 4445 → 4455
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ❌ Item 0 (Fallout):
+      Played: 74.3min / 75min (99.0%)
+      Raw timestamp: 4455
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 1
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 4455 → 8
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.1min / 75min (0.2%)
+      Raw timestamp: 8
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 8 → 18
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.3min / 75min (0.4%)
+      Raw timestamp: 18
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 18 → 28
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.5min / 75min (0.6%)
+      Raw timestamp: 28
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 28 → 3907
+✅ Updated watch history: 28 → 3930
+✅ Updated watch history: 3930 → 32
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.5min / 75min (0.7%)
+      Raw timestamp: 32
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.5min / 75min (0.7%)
+      Raw timestamp: 32
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T14:57:00.016Z - Job started
+2026-02-09T14:57:00.264Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:57:00.264Z - Job finished
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.5min / 75min (0.7%)
+      Raw timestamp: 32
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 32 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 8
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.1min / 75min (0.2%)
+      Raw timestamp: 8
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 8 → 3654
+✅ Updated watch history: 3654 → 3807
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 63.5min / 75min (84.6%)
+      Raw timestamp: 3807
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 63.5min / 75min (84.6%)
+      Raw timestamp: 3807
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 3807 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 3819
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 63.6min / 75min (84.9%)
+      Raw timestamp: 3819
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 3819 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 3866
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 64.4min / 75min (85.9%)
+      Raw timestamp: 3866
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 3866 → 3873
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 64.5min / 75min (86.1%)
+      Raw timestamp: 3873
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 3873 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 64.5min / 75min (86.1%)
+      Raw timestamp: 3873
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T14:58:00.006Z - Job started
+2026-02-09T14:58:00.210Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:58:00.210Z - Job finished
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 3930
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 65.5min / 75min (87.3%)
+      Raw timestamp: 3930
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 3930 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T14:59:00.027Z - Job started
+2026-02-09T14:59:00.261Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T14:59:00.261Z - Job finished
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:00:00.017Z - Job started
+2026-02-09T15:00:00.200Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:00:00.200Z - Job finished
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:01:00.021Z - Job started
+2026-02-09T15:01:00.219Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:01:00.219Z - Job finished
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:02:00.025Z - Job started
+2026-02-09T15:02:00.215Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:02:00.215Z - Job finished
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:03:00.007Z - Job started
+2026-02-09T15:03:00.229Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:03:00.229Z - Job finished
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:04:00.019Z - Job started
+2026-02-09T15:04:00.223Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:04:00.223Z - Job finished
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:05:00.033Z - Job started
+✅ Updated watch history: 34 → 34
+✅ Updated watch history: 34 → 34
+2026-02-09T15:05:00.235Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:05:00.235Z - Job finished
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:06:00.022Z - Job started
+2026-02-09T15:06:00.220Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:06:00.220Z - Job finished
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+2026-02-09T15:07:00.028Z - Job started
+2026-02-09T15:07:00.201Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:07:00.201Z - Job finished
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+✅ Updated watch history: 34 → 34
+2026-02-09T15:08:00.035Z - Job started
+2026-02-09T15:08:00.241Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:08:00.241Z - Job finished
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+✅ Updated watch history: 34 → 3930
+✅ Updated watch history: 3930 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 2
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.0min / 75min (0.0%)
+      Raw timestamp: 2
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:09:00.082Z - Job started
+2026-02-09T15:09:00.378Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:09:00.378Z - Job finished
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.0min / 75min (0.0%)
+      Raw timestamp: 2
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.0min / 75min (0.0%)
+      Raw timestamp: 2
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.0min / 75min (0.0%)
+      Raw timestamp: 2
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:10:00.031Z - Job started
+2026-02-09T15:10:00.247Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:10:00.247Z - Job finished
+2026-02-09T15:11:00.024Z - Job started
+2026-02-09T15:11:00.237Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:11:00.237Z - Job finished
+2026-02-09T15:12:00.044Z - Job started
+2026-02-09T15:12:00.301Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:12:00.301Z - Job finished
+2026-02-09T15:13:00.057Z - Job started
+2026-02-09T15:13:03.104Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:13:03.104Z - Job finished
+2026-02-09T15:14:00.033Z - Job started
+2026-02-09T15:14:00.291Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:14:00.291Z - Job finished
+2026-02-09T15:15:00.034Z - Job started
+2026-02-09T15:15:00.262Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:15:00.262Z - Job finished
+2026-02-09T15:16:00.046Z - Job started
+2026-02-09T15:16:00.263Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:16:00.263Z - Job finished
+2026-02-09T15:17:00.050Z - Job started
+2026-02-09T15:17:00.304Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:17:00.304Z - Job finished
+2026-02-09T15:18:00.042Z - Job started
+2026-02-09T15:18:00.240Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:18:00.240Z - Job finished
+2026-02-09T15:19:00.012Z - Job started
+2026-02-09T15:19:00.220Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:19:00.220Z - Job finished
+2026-02-09T15:20:00.014Z - Job started
+2026-02-09T15:20:00.215Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:20:00.215Z - Job finished
+2026-02-09T15:21:00.030Z - Job started
+2026-02-09T15:21:00.230Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:21:00.231Z - Job finished
+2026-02-09T15:22:00.020Z - Job started
+2026-02-09T15:22:00.221Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:22:00.222Z - Job finished
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.0min / 75min (0.0%)
+      Raw timestamp: 2
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.0min / 75min (0.0%)
+      Raw timestamp: 2
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:23:00.010Z - Job started
+2026-02-09T15:23:00.299Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:23:00.300Z - Job finished
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.0min / 75min (0.0%)
+      Raw timestamp: 2
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.0min / 75min (0.0%)
+      Raw timestamp: 2
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.0min / 75min (0.0%)
+      Raw timestamp: 2
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.0min / 75min (0.0%)
+      Raw timestamp: 2
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:24:00.019Z - Job started
+2026-02-09T15:24:00.274Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:24:00.274Z - Job finished
+✅ Updated watch history: 2 → 4
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.1min / 75min (0.1%)
+      Raw timestamp: 4
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 4 → 14
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.2min / 75min (0.3%)
+      Raw timestamp: 14
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 14 → 24
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.4min / 75min (0.5%)
+      Raw timestamp: 24
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 24 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 44
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.7min / 75min (1.0%)
+      Raw timestamp: 44
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 44 → 54
+✅ Updated watch history: 44 → 54
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.9min / 75min (1.2%)
+      Raw timestamp: 54
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.9min / 75min (1.2%)
+      Raw timestamp: 54
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:25:00.009Z - Job started
+2026-02-09T15:25:00.319Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:25:00.319Z - Job finished
+✅ Updated watch history: 54 → 64
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.1min / 75min (1.4%)
+      Raw timestamp: 64
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 64 → 74
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.2min / 75min (1.6%)
+      Raw timestamp: 74
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 74 → 84
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.4min / 75min (1.9%)
+      Raw timestamp: 84
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 84 → 94
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.6min / 75min (2.1%)
+      Raw timestamp: 94
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 94 → 104
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.7min / 75min (2.3%)
+      Raw timestamp: 104
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 104 → 114
+✅ Updated watch history: 114 → 114
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.9min / 75min (2.5%)
+      Raw timestamp: 114
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.9min / 75min (2.5%)
+      Raw timestamp: 114
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:26:00.016Z - Job started
+2026-02-09T15:26:00.239Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:26:00.239Z - Job finished
+✅ Updated watch history: 114 → 121
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 2.0min / 75min (2.7%)
+      Raw timestamp: 121
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 2.0min / 75min (2.7%)
+      Raw timestamp: 121
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:27:00.010Z - Job started
+2026-02-09T15:27:00.221Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:27:00.221Z - Job finished
+2026-02-09T15:28:00.021Z - Job started
+2026-02-09T15:28:02.781Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:28:02.781Z - Job finished
+2026-02-09T15:29:00.032Z - Job started
+2026-02-09T15:29:02.167Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:29:02.167Z - Job finished
+2026-02-09T15:30:00.018Z - Job started
+2026-02-09T15:30:00.241Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:30:00.241Z - Job finished
+2026-02-09T15:31:00.024Z - Job started
+2026-02-09T15:31:00.268Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:31:00.268Z - Job finished
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 2.0min / 75min (2.7%)
+      Raw timestamp: 121
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 2.0min / 75min (2.7%)
+      Raw timestamp: 121
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:32:00.021Z - Job started
+2026-02-09T15:32:00.230Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:32:00.230Z - Job finished
+2026-02-09T15:33:00.018Z - Job started
+2026-02-09T15:33:00.251Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:33:00.251Z - Job finished
+2026-02-09T15:34:00.021Z - Job started
+2026-02-09T15:34:02.179Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:34:02.179Z - Job finished
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 2.0min / 75min (2.7%)
+      Raw timestamp: 121
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 121 → 121
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 2.0min / 75min (2.7%)
+      Raw timestamp: 121
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 121 → 4
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.1min / 75min (0.1%)
+      Raw timestamp: 4
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 4 → 14
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.2min / 75min (0.3%)
+      Raw timestamp: 14
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 14 → 24
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.4min / 75min (0.5%)
+      Raw timestamp: 24
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:35:00.030Z - Job started
+2026-02-09T15:35:00.224Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:35:00.224Z - Job finished
+✅ Updated watch history: 24 → 34
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.6min / 75min (0.8%)
+      Raw timestamp: 34
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 34 → 44
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.7min / 75min (1.0%)
+      Raw timestamp: 44
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 44 → 54
+✅ Updated watch history: 44 → 54
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.9min / 75min (1.2%)
+      Raw timestamp: 54
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 0.9min / 75min (1.2%)
+      Raw timestamp: 54
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 54 → 64
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.1min / 75min (1.4%)
+      Raw timestamp: 64
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 64 → 74
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.2min / 75min (1.6%)
+      Raw timestamp: 74
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 74 → 84
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.4min / 75min (1.9%)
+      Raw timestamp: 84
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:36:00.019Z - Job started
+2026-02-09T15:36:00.307Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:36:00.307Z - Job finished
+✅ Updated watch history: 84 → 94
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.6min / 75min (2.1%)
+      Raw timestamp: 94
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 94 → 104
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.7min / 75min (2.3%)
+      Raw timestamp: 104
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 104 → 105
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.7min / 75min (2.3%)
+      Raw timestamp: 104
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.8min / 75min (2.3%)
+      Raw timestamp: 105
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.8min / 75min (2.3%)
+      Raw timestamp: 105
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 105 → 105
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.8min / 75min (2.3%)
+      Raw timestamp: 105
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 105 → 106
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.8min / 75min (2.4%)
+      Raw timestamp: 106
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:37:00.029Z - Job started
+2026-02-09T15:37:00.282Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:37:00.283Z - Job finished
+✅ Updated watch history: 106 → 116
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.9min / 75min (2.6%)
+      Raw timestamp: 116
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+✅ Updated watch history: 116 → 122
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 1.9min / 75min (2.6%)
+      Raw timestamp: 116
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 2.0min / 75min (2.7%)
+      Raw timestamp: 122
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────
+2026-02-09T15:38:00.029Z - Job started
+2026-02-09T15:38:00.273Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:38:00.273Z - Job finished
+2026-02-09T15:39:00.022Z - Job started
+2026-02-09T15:39:00.624Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:39:00.624Z - Job finished
+2026-02-09T15:40:00.190Z - Job started
+2026-02-09T15:40:00.506Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:40:00.506Z - Job finished
+2026-02-09T15:41:00.048Z - Job started
+2026-02-09T15:41:00.252Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:41:00.252Z - Job finished
+2026-02-09T15:42:00.015Z - Job started
+2026-02-09T15:42:00.195Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:42:00.195Z - Job finished
+2026-02-09T15:43:00.019Z - Job started
+2026-02-09T15:43:00.323Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:43:00.323Z - Job finished
+2026-02-09T15:44:00.011Z - Job started
+2026-02-09T15:44:00.209Z - Updated 0 MovieRent docs, 0 PurchaseSubscription docs
+2026-02-09T15:44:00.209Z - Job finished
+📊 Watch History Debug:
+  Total records found: 2
+  User ID: 6989e41ebcdf016d65927e80
+  ✅ Item 0 (Fallout):
+      Played: 2.0min / 75min (2.7%)
+      Raw timestamp: 122
+  ✅ Item 1 (Hera Pheri):
+      Played: 0.6min / 13min (4.5%)
+      Raw timestamp: 35
+  📋 Final count after filtering: 2
+────────────────────────────────────────────────────────────

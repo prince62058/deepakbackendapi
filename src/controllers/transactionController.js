@@ -1,0 +1,560 @@
+const mongoose = require("mongoose");
+const transactionModel = require("../models/transactionModel.js");
+const userModel = require("../models/userModels.js");
+const WatchEarn = require("../models/watchEarnModel");
+const { Company } = require("../models/companyModel");
+const { generateTransactionId } = require("../utils/generateTransactionId.js");
+const sendPushNotification = require("../middleware/pushNotificationMiddleware");
+
+// create transaction
+const createTransaction = async (req, res) => {
+  try {
+    const { userId, amount, Type, bankOrUpiId, transactionId, message } =
+      req.body;
+
+    if (!userId || !amount || !Type) {
+      return res.status(400).json({
+        success: false,
+        message: "userId,amount and Type is required.",
+      });
+    }
+
+    const user = await userModel.findById(userId);
+
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        message: "User not found.",
+      });
+    }
+    let transectionData;
+
+    const transactionMessage =
+      message ||
+      (Type === "CREDIT"
+        ? `₹${amount} credited to wallet.`
+        : `₹${amount} debited from wallet.`);
+
+    if (Type == "CREDIT") {
+      transectionData = await transactionModel.create({
+        userId,
+        amount,
+        Type,
+        status: "APPROVED",
+        transactionId: transactionId ? transactionId : generateTransactionId(),
+        message: transactionMessage,
+      });
+      const balance = user?.wallet + amount;
+      user.wallet = balance;
+      await user.save();
+    } else {
+      if (!bankOrUpiId) {
+        return res.status(400).json({
+          success: false,
+          message: "bankOrUpiId is required.",
+        });
+      }
+
+      if (user.wallet < amount) {
+        return res.status(400).json({
+          success: false,
+          message: "Insufficient wallet balance for withdrawal.",
+        });
+      }
+
+      transectionData = await transactionModel.create({
+        userId,
+        amount,
+        Type,
+        bankOrUpiId,
+        transactionId: "",
+        message: transactionMessage,
+      });
+      const balance = Number(user?.wallet - amount);
+      user.wallet = balance;
+      await user.save();
+    }
+
+    res.status(201).json({
+      success: true,
+      message: "Transection created successfully",
+      data: transectionData,
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+};
+
+const getListTransactionByUserId = async (req, res) => {
+  try {
+    const {
+      Type,
+      userId,
+      page = 1,
+      limit = 20,
+      sort = -1,
+      startDate,
+      endDate,
+      search,
+      status,
+      minAmount,
+      maxAmount,
+      sortBy = "createdAt",
+    } = req.query;
+
+    const skip = (page - 1) * limit;
+    const sortOrder = sort === "asc" ? 1 : -1;
+    const sortOptions = { [sortBy]: sortOrder };
+
+    // Base Filter
+    const filter = {};
+
+    if (Type) filter.Type = Type.toUpperCase();
+    if (status) filter.status = status.toUpperCase();
+    if (userId) filter.userId = new mongoose.Types.ObjectId(userId);
+
+    // Amount Filter
+    if (minAmount || maxAmount) {
+      filter.amount = {};
+      if (minAmount) filter.amount.$gte = parseFloat(minAmount);
+      if (maxAmount) filter.amount.$lte = parseFloat(maxAmount);
+    }
+
+    // Date Filter
+    if (startDate || endDate) {
+      filter.createdAt = {};
+      if (startDate) filter.createdAt.$gte = new Date(startDate);
+      if (endDate) {
+        const end = new Date(endDate);
+        end.setHours(23, 59, 59, 999);
+        filter.createdAt.$lte = end;
+      }
+    }
+
+    // 1️⃣ Fetch Data from DB
+    // When searching, fetch ALL matching records (no limit), then paginate in code
+    // When not searching, apply limit in DB query for efficiency
+    const shouldFetchAll = search && search.trim() !== "";
+
+    const [transactions, total] = await Promise.all([
+      transactionModel
+        .find(filter)
+        .populate({
+          path: "bankOrUpiId",
+          select: "-_id -__v -createdAt -updatedAt",
+        })
+        .populate({
+          path: "userId",
+          select: "name number email",
+        })
+        .sort(sortOptions)
+        .skip(shouldFetchAll ? 0 : skip)
+        .limit(shouldFetchAll ? 0 : Number(limit))
+        .lean(),
+
+      transactionModel.countDocuments(filter),
+    ]);
+
+    // 2️⃣ Apply Search / Filter in Code (based on populated data)
+    let finalData = transactions;
+
+    // Fetch dynamic settings from Company
+    const company = await Company.findOne();
+    const targetHours = company?.watchEarnTarget || 50;
+    const rewardRate = company?.watchEarnRate || 0.5;
+
+    // Dynamically update messages and amounts to reflect current rate for UI consistency
+    finalData = finalData.map((tx) => {
+      if (tx.message && tx.message.includes("₹0.1/min")) {
+        // Calculate new amount based on the current rate (0.1 -> rewardRate)
+        const scaleFactor = rewardRate / 0.1;
+        tx.amount = Number((tx.amount * scaleFactor).toFixed(2));
+        tx.message = tx.message.replace("₹0.1/min", `₹${rewardRate}/min`);
+      }
+      return tx;
+    });
+
+    if (search && search.trim() !== "") {
+      const keyword = search.trim().toLowerCase();
+
+      finalData = finalData.filter((tx) =>
+        tx.userId?.name?.toLowerCase().includes(keyword),
+      );
+
+      // Apply pagination to filtered results
+      const totalFiltered = finalData.length;
+      finalData = finalData.slice(skip, skip + Number(limit));
+    }
+
+    // 3️⃣ Fetch Watch & Earn Data (Current Month)
+    const now = new Date();
+    const periodKey = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}`;
+
+    // Find active plan or just the record for the current month
+    const watchAndEarnData = await WatchEarn.findOne({
+      userId,
+      periodKey,
+    }).select(
+      "monthlyMinutesWatched monthlyRewardAmount rewardRate isPlanActive",
+    );
+
+    const totalHours = watchAndEarnData
+      ? (watchAndEarnData.monthlyMinutesWatched / 60).toFixed(1)
+      : 0;
+
+    const hoursWatched = parseFloat(totalHours);
+    const progress = Math.min((hoursWatched / targetHours) * 100, 100);
+
+    return res.status(200).json({
+      success: true,
+      message: "Transactions fetched successfully",
+      data: finalData,
+      earnings: {
+        totalRewardAmount: watchAndEarnData?.monthlyRewardAmount || 0,
+        hoursWatched: hoursWatched,
+        minutesWatched: watchAndEarnData?.monthlyMinutesWatched || 0,
+        targetHours: targetHours,
+        rewardRate: rewardRate,
+        progress: progress,
+        isPlanActive: watchAndEarnData?.isPlanActive || false,
+      },
+      pagination: {
+        total: search ? finalData.length : total,
+        page: Number(page),
+        limit: Number(limit),
+        pages: Math.ceil((search ? finalData.length : total) / limit) || 1,
+      },
+    });
+  } catch (error) {
+    console.error("Error fetching transactions:", error);
+    return res.status(500).json({
+      success: false,
+      message: "Error fetching transactions",
+      error: process.env.NODE_ENV === "development" ? error.message : undefined,
+    });
+  }
+};
+
+// get transaction by id
+const getTransactionById = async (req, res) => {
+  const { transectionId } = req.query;
+  try {
+    if (!transectionId) {
+      return res.status(400).json({
+        success: false,
+        message: "transactionId is required !",
+      });
+    }
+    const transectionData = await transactionModel.findById(transectionId);
+
+    if (!transectionData) {
+      return res.status(404).json({
+        success: false,
+        message: "transaction data not found !",
+      });
+    }
+
+    res.status(200).json({
+      success: true,
+      message: "fetched transection data successfully",
+      data: transectionData,
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+};
+
+// update transaction status by admin
+const updateTransactionStatus = async (req, res) => {
+  const { status, tid, message, transactionId } = req.body;
+  try {
+    if (!tid) {
+      return res.status(400).json({
+        success: false,
+        message: "Tid is Required",
+      });
+    }
+    if (status == "APPROVED" && !transactionId) {
+      return res.status(400).json({
+        success: false,
+        message: "Transaction id  is Required For Status APPROVED",
+      });
+    }
+
+    let updateFields = { status, transactionId };
+
+    // Set default approval message if not provided
+    if (status === "APPROVED") {
+      updateFields.message = message || "Approved by Admin";
+    } else {
+      if (message) updateFields.message = message;
+    }
+
+    const data = await transactionModel.findByIdAndUpdate(tid, updateFields, {
+      new: true,
+    });
+
+    if (status == "REJECTED") {
+      const user = await userModel.findById(data.userId);
+      const refundAmount = Number(data.amount);
+
+      // 1. Refund to Wallet
+      user.wallet += refundAmount;
+      await user.save();
+
+      // 2. Create Refund Transaction Record
+      await transactionModel.create({
+        userId: data.userId,
+        amount: refundAmount,
+        Type: "CREDIT",
+        status: "APPROVED",
+        transactionId: generateTransactionId(),
+        message: "Refund: Withdrawal Rejected by Admin",
+      });
+
+      // 3. Send Rejection Notification
+      if (user && user.fcmToken) {
+        await sendPushNotification({
+          tokens: [user.fcmToken],
+          notification: {
+            title: "Withdrawal Rejected",
+            body: `Reason: ${message || "Admin rejected request"}`,
+          },
+          data: {
+            type: "TRANSACTION_REJECTED",
+            transactionId: tid,
+          },
+        });
+      }
+    } else if (status === "APPROVED") {
+      // Send Approval Notification
+      const user = await userModel.findById(data.userId); // Fetch user if not already fetched
+      if (user && user.fcmToken) {
+        await sendPushNotification({
+          tokens: [user.fcmToken],
+          notification: {
+            title: "Withdrawal Approved",
+            body: `Your withdrawal of ₹${data.amount} has been approved.`,
+          },
+          data: {
+            type: "TRANSACTION_APPROVED",
+            transactionId: tid,
+          },
+        });
+      }
+    }
+
+    return res.status(200).json({
+      success: true,
+      message: "Transaction Status updated successfully",
+      data: data,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
+
+const filterTransaction = async (req, res) => {
+  let {
+    search,
+    page = 1,
+    limit = 20,
+    sort = -1,
+    startDate,
+    endDate,
+    Type,
+    status,
+    userType,
+  } = req.query;
+  const skip = (page - 1) * limit;
+
+  // Build the filter object
+  const filter = {
+    ...(Type && { Type }),
+    ...(status && { status }),
+  };
+
+  // Filter by startDate and endDate
+  if (startDate || endDate) {
+    filter.createdAt = {};
+    if (startDate) {
+      filter.createdAt.$gte = new Date(startDate);
+    }
+    if (endDate) {
+      filter.createdAt.$lte = new Date(endDate);
+    }
+  }
+
+  try {
+    // Use aggregation pipeline for efficient search with populated fields
+    const pipeline = [
+      // Match transactions based on filter (Type, status, date)
+      { $match: filter },
+      // Lookup for userId
+      {
+        $lookup: {
+          from: "users", // Replace with your actual user collection name
+          localField: "userId",
+          foreignField: "_id",
+          as: "userId",
+        },
+      },
+      // Unwind userId to convert array to object
+      { $unwind: { path: "$userId", preserveNullAndEmptyArrays: true } },
+      // Lookup for listenerId
+      {
+        $lookup: {
+          from: "users", // Replace with your actual listener collection name
+          localField: "listenerId",
+          foreignField: "_id",
+          as: "listenerId",
+        },
+      },
+      // Unwind listenerId to convert array to object
+      { $unwind: { path: "$listenerId", preserveNullAndEmptyArrays: true } },
+      // Lookup for bankId (if needed)
+      {
+        $lookup: {
+          from: "banks", // Replace with your actual bank collection name
+          localField: "bankId",
+          foreignField: "_id",
+          as: "bankId",
+        },
+      },
+      // Unwind bankId to convert array to object
+      { $unwind: { path: "$bankId", preserveNullAndEmptyArrays: true } },
+    ];
+
+    // Add search filter for userId.name or listenerId.name
+    if (search) {
+      pipeline.push({
+        $match: {
+          $or: [
+            { "userId.name": { $regex: search, $options: "i" } },
+            { "listenerId.name": { $regex: search, $options: "i" } },
+          ],
+        },
+      });
+    }
+
+    if (userType) {
+      pipeline.push({
+        $match: {
+          $or: [
+            { "userId.userType": userType },
+            { "listenerId.userType": userType },
+          ],
+        },
+      });
+    }
+
+    // Add sorting, skipping, and limiting
+    pipeline.push(
+      { $sort: { createdAt: parseInt(sort) } },
+      { $skip: skip },
+      { $limit: parseInt(limit) },
+    );
+
+    // Execute aggregation pipeline
+    const [data, total] = await Promise.all([
+      transactionModel.aggregate([
+        {
+          $match: filter,
+        },
+        {
+          $lookup: {
+            from: "bankaccounts",
+            localField: "bankOrUpiId",
+            foreignField: "_id",
+            as: "bankDetails",
+          },
+        },
+        {
+          $unwind: {
+            path: "$bankDetails",
+            preserveNullAndEmptyArrays: true,
+          },
+        },
+        {
+          $lookup: {
+            from: "users",
+            localField: "userId",
+            foreignField: "_id",
+            as: "user",
+          },
+        },
+        {
+          $unwind: {
+            path: "$user",
+            preserveNullAndEmptyArrays: true,
+          },
+        },
+        {
+          $project: {
+            _id: 1,
+            amount: 1,
+            Type: 1,
+            status: 1,
+            transactionId: 1,
+            message: 1,
+            createdAt: 1,
+            updatedAt: 1,
+            bankDetails: 1,
+            userName: "$user.name",
+            userNumber: "$user.number",
+            userEmail: "$user.email",
+          },
+        },
+        { $sort: { createdAt: parseInt(sort) } },
+        { $skip: skip },
+        { $limit: Number(limit) },
+      ]),
+      transactionModel.countDocuments(filter),
+    ]);
+
+    return res.status(200).json({
+      success: true,
+      message: "Transactions fetched successfully.",
+      data,
+      pagination: {
+        total,
+        page: Number(page),
+        limit: Number(limit),
+        pages: Math.ceil(total / limit) || 1,
+      },
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+};
+
+// Clear all transactions (Admin only)
+const clearAllTransactions = async (req, res) => {
+  try {
+    const result = await transactionModel.deleteMany({});
+
+    return res.status(200).json({
+      success: true,
+      message: `Successfully deleted ${result.deletedCount} transactions`,
+      deletedCount: result.deletedCount,
+    });
+  } catch (error) {
+    console.error("Error clearing transactions:", error);
+    return res.status(500).json({
+      success: false,
+      message: "Error clearing transactions",
+      error: process.env.NODE_ENV === "development" ? error.message : undefined,
+    });
+  }
+};
+
+module.exports = {
+  createTransaction,
+  getListTransactionByUserId,
+  getTransactionById,
+  updateTransactionStatus,
+  clearAllTransactions,
+};
