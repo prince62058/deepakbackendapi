@@ -1,6 +1,7 @@
 const express = require("express");
 const {
   uploadMovie,
+  getPresignedUrl,
   createMovieOrWebSeries,
   updateMovieOrWebSeries,
   getAllByFilter,
@@ -21,6 +22,7 @@ router.get("/getMovieOrSeriesById", getMovieOrSeriesById);
 router.get("/getTrailerMovieOrSeriesById", getTrailerMovieOrSeriesById);
 
 // for admin
+router.post("/getPresignedUrl", getPresignedUrl);
 router.post("/uploadMovie", upload.single("movie"), uploadMovie);
 router.post("/admin/createMovieOrWebSeries", createMovieOrWebSeries);
 router.put("/admin/updateMovieOrWebSeries", updateMovieOrWebSeries);
