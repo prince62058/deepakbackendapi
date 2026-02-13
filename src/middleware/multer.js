@@ -29,7 +29,11 @@ const upload = multer({
       let folderPath = "";
 
       if (file.mimetype.startsWith("image")) folderPath = "OTT/IMAGE/";
-      else if (file.mimetype.startsWith("video")) folderPath = "OTT/VIDEO/";
+      else if (
+        file.mimetype.startsWith("video") ||
+        file.originalname.toLowerCase().endsWith(".mkv")
+      )
+        folderPath = "OTT/VIDEO/";
       else if (file.mimetype.startsWith("application/pdf"))
         folderPath = "OTT/PDF/";
       else folderPath = "OTT/OTHERS/";
